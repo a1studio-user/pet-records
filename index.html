@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5b84b" />
+    <meta name="description" content="宠刻——记录猫狗生活的温暖云端小本" />
+    <title>宠刻 · 宠物生活记录原型</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=11" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <main class="app-shell" aria-label="宠刻宠物生活记录原型">
+      <aside class="desktop-rail" aria-label="应用介绍">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 26c-7.4 0-13.4 5.3-13.4 11.2 0 4.8 4 7.7 9 5.4 2.8-1.3 6.1-1.3 8.9 0 5 2.3 9-0.6 9-5.4C37.5 31.3 31.4 26 24 26Z"/><circle cx="10" cy="22" r="6"/><circle cx="20" cy="12" r="6"/><circle cx="38" cy="22" r="6"/><circle cx="30" cy="12" r="6"/></svg>
+        </div>
+        <p class="eyebrow">A LITTLE BOOK FOR BIG LOVE</p>
+        <h1>把毛孩子的<br />每件小事都记好</h1>
+        <p class="rail-copy">从一顿饭、一支疫苗到一次驱虫，温柔地收好共同生活的痕迹。</p>
+        <div class="rail-tags" aria-label="产品特点">
+          <span>☁️ 云端同步</span><span>🔒 私密记录</span><span>📱 iPhone · iPad</span>
+        </div>
+        <div class="pet-doodle" aria-hidden="true">
+          <span class="doodle-cat">ฅ^•ﻌ•^ฅ</span>
+          <span class="doodle-line"></span>
+        </div>
+      </aside>
+
+      <section class="device" aria-label="应用界面">
+        <div class="status-bar" aria-hidden="true">
+          <span>9:41</span>
+          <span class="status-icons">
+            <svg viewBox="0 0 20 14"><path d="M1 11h2V7H1v4Zm4 0h2V5H5v6Zm4 0h2V3H9v8Zm4 0h2V1h-2v10Z"/></svg>
+            <svg viewBox="0 0 20 14"><path d="M2 5.5C6.4 1.7 13.6 1.7 18 5.5M5 8.5c2.8-2.4 7.2-2.4 10 0M8.2 11.2c1-.8 2.6-.8 3.6 0"/></svg>
+            <svg viewBox="0 0 26 14"><rect x="1" y="1" width="21" height="12" rx="3"/><path d="M24 5v4"/><rect x="3" y="3" width="16" height="8" rx="1.5" class="battery-fill"/></svg>
+          </span>
+        </div>
+
+        <div id="app" class="screen" aria-live="polite"></div>
+
+        <nav class="bottom-nav" aria-label="主要导航">
+          <button class="nav-item active" data-route="home" aria-label="首页">
+            <span data-icon="home"></span><span>首页</span>
+          </button>
+          <button class="nav-item" data-route="records" aria-label="记录">
+            <span data-icon="notebook"></span><span>记录</span>
+          </button>
+          <button class="nav-add" data-action="open-add" aria-label="新增记录">
+            <span data-icon="plus"></span>
+          </button>
+          <button class="nav-item" data-route="ranking" aria-label="口味榜">
+            <span data-icon="star"></span><span>口味榜</span>
+          </button>
+          <button class="nav-item" data-route="pets" aria-label="宠物档案">
+            <span data-icon="paw"></span><span>宠物</span>
+          </button>
+        </nav>
+      </section>
+    </main>
+
+    <div id="sheet-root"></div>
+    <div id="toast-root" aria-live="assertive"></div>
+    <input id="photo-input" type="file" accept="image/*" hidden />
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

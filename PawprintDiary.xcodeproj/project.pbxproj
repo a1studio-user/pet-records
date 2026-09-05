@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* PawprintDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* PawprintDiaryApp.swift */; };
+		A10000000000000000000002 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Theme.swift */; };
+		A10000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Models.swift */; };
+		A10000000000000000000004 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* SeedData.swift */; };
+		A10000000000000000000005 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AppStore.swift */; };
+		A10000000000000000000006 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* Services.swift */; };
+		A10000000000000000000007 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* Components.swift */; };
+		A10000000000000000000008 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* RootTabView.swift */; };
+		A10000000000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* HomeView.swift */; };
+		A1000000000000000000000A /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* RecordsView.swift */; };
+		A1000000000000000000000B /* TasteRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* TasteRankingView.swift */; };
+		A1000000000000000000000C /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* PetsView.swift */; };
+		A1000000000000000000000D /* Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* Editors.swift */; };
+		A1000000000000000000000E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* AccountView.swift */; };
+		A1000000000000000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* Assets.xcassets */; };
+		A10000000000000000000011 /* CloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* CloudService.swift */; };
+		A10000000000000000000012 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* PrivacyInfo.xcprivacy */; };
+		A10000000000000000000013 /* LegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* LegalView.swift */; };
+		A10000000000000000000014 /* CloudRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* CloudRows.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* PawprintDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawprintDiaryApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* TasteRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteRankingView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* Editors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editors.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000011 /* PawprintDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawprintDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000012 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B10000000000000000000013 /* CloudService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudService.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* PawprintDiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PawprintDiary.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000015 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B10000000000000000000016 /* LegalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalView.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* CloudRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRows.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002 /* PawprintDiary */, D10000000000000000000003 /* Products */); sourceTree = "<group>"; };
+		D10000000000000000000002 /* PawprintDiary */ = {isa = PBXGroup; path = PawprintDiary; sourceTree = "<group>"; children = (
+			B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004,
+			B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008,
+			B10000000000000000000009, B1000000000000000000000A, B1000000000000000000000B, B1000000000000000000000C,
+			B1000000000000000000000D, B1000000000000000000000E, B1000000000000000000000F, B10000000000000000000010,
+			B10000000000000000000012,
+			B10000000000000000000013,
+			B10000000000000000000014,
+			B10000000000000000000015,
+			B10000000000000000000016,
+			B10000000000000000000017,
+		); };
+		D10000000000000000000003 /* Products */ = {isa = PBXGroup; children = (B10000000000000000000011 /* PawprintDiary.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* PawprintDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000002;
+			buildPhases = (F10000000000000000000001 /* Sources */, C10000000000000000000001 /* Frameworks */, F10000000000000000000002 /* Resources */);
+			buildRules = ();
+			dependencies = ();
+			name = PawprintDiary;
+			productName = PawprintDiary;
+			productReference = B10000000000000000000011 /* PawprintDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {E10000000000000000000001 = {CreatedOnToolsVersion = 26.6; SystemCapabilities = {com.apple.SignInWithApple = {enabled = 1; };}; };};};
+			buildConfigurationList = H10000000000000000000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (zh_CN, Base);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000003;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* PawprintDiary */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000F /* Assets.xcassets in Resources */, A10000000000000000000012 /* PrivacyInfo.xcprivacy in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004,
+			A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008,
+			A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C,
+			A1000000000000000000000D, A1000000000000000000000E, A10000000000000000000011, A10000000000000000000013,
+			A10000000000000000000014,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		G10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		G10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; baseConfigurationReference = B10000000000000000000012 /* Config.xcconfig */; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic;
+			CODE_SIGN_ENTITLEMENTS = PawprintDiary/PawprintDiary.entitlements; CURRENT_PROJECT_VERSION = 3; DEVELOPMENT_TEAM = 8K38W4M6JJ; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PawprintDiary/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.anto.PawprintDiary; PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Debug; };
+		G10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; baseConfigurationReference = B10000000000000000000012 /* Config.xcconfig */; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic;
+			CODE_SIGN_ENTITLEMENTS = PawprintDiary/PawprintDiary.entitlements; CURRENT_PROJECT_VERSION = 3; DEVELOPMENT_TEAM = 8K38W4M6JJ; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PawprintDiary/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.anto.PawprintDiary; PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H10000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (G10000000000000000000001, G10000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H10000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (G10000000000000000000003, G10000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}

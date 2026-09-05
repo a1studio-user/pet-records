@@ -1,0 +1,5 @@
+// Shared build configuration. Real project values live in Config.local.xcconfig,
+// which is intentionally excluded from version control.
+SUPABASE_URL =
+SUPABASE_PUBLISHABLE_KEY =
+#include? "Config.local.xcconfig"
