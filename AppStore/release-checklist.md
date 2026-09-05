@@ -23,7 +23,7 @@
 ## App Store Connect
 
 - [ ] 填写 `metadata-zh-Hans.md` 中的名称、副标题、描述、关键词和审核备注
-- [ ] 发布 `site/privacy.html` 和 `site/support.html`，填写公开 HTTPS URL
+- [x] 已通过 GitHub Pages 发布营销页、技术支持页和隐私政策页，并填写公开 HTTPS URL
 - [ ] 按 `app-privacy.md` 填写并发布隐私标签
 - [ ] 完成年龄分级问卷；无暴力、色情、赌博、医疗建议或公开社交内容，不选择 Made for Kids
 - [ ] 内容版权：确认所有 App 图标、照片示例、文案和数据名称均有权使用
